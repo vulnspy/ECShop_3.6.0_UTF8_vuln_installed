@@ -45,7 +45,7 @@ if (file_exists(ROOT_PATH . 'data/install.lock'))
 
     include_once(ROOT_PATH . 'install/includes/lib_env_checker.php');
     include_once(ROOT_PATH . 'install/includes/checking_dirs.php');
-    $dir_checking = check_dirs_priv($checking_dirs);
+    $dir_checking = 1;//check_dirs_priv($checking_dirs);
 
     $templates_root = array(
         'dwt' => ROOT_PATH . 'themes/default/',
