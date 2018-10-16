@@ -20,7 +20,7 @@ VULNSPY AUTO INSTALL
 */
 $_POST['dbhost'] = '127.0.0.1';
 $_POST['db_port'] = 3306;
-$_POST['dbname'] = 'test';
+$_POST['dbname'] = 'ecshop';
 $_POST['dbuser'] = 'root';
 $_POST['dbpass'] = 'toor';
 
